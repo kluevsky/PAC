@@ -1,0 +1,9 @@
+[General]
+dns-server = 1.1.1.1
+
+[Proxy]
+vpn = 127.0.0.1:1080, type=socks5
+
+[Rule]
+DOMAIN-SUFFIX,2ip.ru,vpn
+FINAL,DIRECT
